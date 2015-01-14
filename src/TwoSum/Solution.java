@@ -1,6 +1,7 @@
 package TwoSum;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  Given an array of integers, find two numbers such that they add up to a specific target number.
@@ -14,8 +15,14 @@ import java.util.HashMap;
 
 */
 public class Solution {
+    /**
+     * Hash, O(n)
+     * @param numbers
+     * @param target
+     * @return
+     */
     public int[] twoSum(int[] numbers, int target) {
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> map = new HashMap<>();
         for(int i=0; i<numbers.length; i++) {
             map.put(numbers[i], i);
         }

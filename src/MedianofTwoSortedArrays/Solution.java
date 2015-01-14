@@ -3,11 +3,12 @@ package MedianofTwoSortedArrays;
 import java.util.Arrays;
 
 /**
- * “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.”
- * - Bill Gates
  * User: Danyang
  * Date: 10/21/14
  * Time: 10:45 PM
+ *
+ * There are two sorted arrays A and B of size m and n respectively. Find the median of the two sorted arrays. The
+ * overall run time complexity should be O(log (m+n)).
  */
 public class Solution {
     public double findMedianSortedArrays(int A[], int B[]) {
