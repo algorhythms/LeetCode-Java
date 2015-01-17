@@ -1,5 +1,7 @@
 package AddTwoNumbers;
 
+import commons.datastructures.ListNode;
+
 /**
  * User: Danyang
  * Date: 1/14/2015
@@ -13,15 +15,6 @@ package AddTwoNumbers;
  */
 
 public class Solution {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode c1 = l1;
         ListNode c2 = l2;
