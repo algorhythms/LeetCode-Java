@@ -84,9 +84,6 @@ public class Solution {
                 for(int k=i; k>i-vertical[i+1][j+1]; k--)
                     length = Math.min(length, horizontal[k+1][j+1]);
                 maxa = Math.max(maxa, Math.max(horizontal[i+1][j+1]*height, vertical[i+1][j+1]*length));  // logic flaw
-                if(maxa==12) {
-                    System.out.println(maxa);
-                }
             }
 
         return maxa;
