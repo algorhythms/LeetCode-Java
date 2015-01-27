@@ -14,7 +14,9 @@ import commons.datastructures.TreeNode;
  */
 public class Solution {
     /**
-     * O(n lgn)
+     * O(n lgn)?
+     * Actually it is O(n)
+     * \sum_{i=0}^{h-1} 2^i (h-i)
      * @param root
      * @return
      */
