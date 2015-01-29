@@ -57,7 +57,6 @@ public class Solution {
                     workingWin.clear();
                     win_e = -1;
                     Lmap = new HashMap<>(Lmap_origin);
-                    continue;
                 }
             }
 
